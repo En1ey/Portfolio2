@@ -8,7 +8,6 @@ import Link from 'next/link';
 
 // Helper component for the Navigation Bar
 const Navbar = () => {
-    // Note: Link component from 'next/link' is used for client-side routing
     return (
         <nav className="nav">
             <ul>
