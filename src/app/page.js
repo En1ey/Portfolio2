@@ -44,7 +44,7 @@ const BackToTopButton = () => {
     return (
         <button
             id="backToTop"
-            className={isVisible ? 'visible' : ''}
+            className={isVisible ? 'visible' : 'hidden'}
             onClick={scrollToTop}
             aria-label="Back to top"
         >
@@ -133,7 +133,7 @@ export default function Home() {
                     <h2>Projects</h2>
                     <div className={styles.slideshowContainer}>
                         {projectData.map((project, index) => (
-                            <div key={index} className={`${styles.slide} ${slideIndex === index + 1 ? styles.active : ''}`}>
+                            <div key={index} className={`${styles.slide} ${slideIndex === index + 1 ? styles.active : 'hidden'}`}>
                                 <span className={styles.projectType}>{project.type}</span>
                                 <div className={styles.slideImage}>
                                     <img src={project.imgSrc} alt={`Project ${index + 1}`} />
@@ -150,7 +150,7 @@ export default function Home() {
                         {projectData.map((_, index) => (
                             <span 
                                 key={index}
-                                className={`${styles.dot} ${slideIndex === index + 1 ? styles.active : ''}`} 
+                                className={`${styles.dot} ${slideIndex === index + 1 ? styles.active : 'hidden'}`} 
                                 onClick={() => currentSlide(index + 1)}
                             ></span>
                         ))}

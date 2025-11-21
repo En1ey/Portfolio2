@@ -2,8 +2,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'John Portfolio',
-  description: 'John Henley Llamos Portfolio. Showing his creations and other information',
+  title: "John Portfolio",
+  description: "John Henley Llamos Portfolio. Showing his creations and other information",
 };
 
 export default function RootLayout({ children }) {
