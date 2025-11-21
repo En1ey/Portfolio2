@@ -11,6 +11,7 @@ const Navbar = () => {
     return (
         <nav className="nav">
             <ul>
+                <link rel="icon" href="/img/LLAMOS 2X2.png" />
                 <li><Link href="#profile">Profile</Link></li>
                 <li><Link href="#projects">Projects</Link></li>
                 <li><Link href="#credentials">Credentials</Link></li>
