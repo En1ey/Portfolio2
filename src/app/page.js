@@ -254,6 +254,12 @@ export default function Home() {
                             <h3>LinkedIn</h3>
                             <Link href="https://www.linkedin.com/in/john-henley-llamos-93667a336/" target="_blank">lhttps://www.linkedin.com/in/john-henley-llamos-93667a336/</Link>
                         </div>
+
+                        <div className={styles.contactCard}>
+                            <div className={styles.contactIcon}>💼</div>
+                            <h3>My Website</h3>
+                            <Link href="https://john-llamos-portfolio.vercel.app/#projects" target="_blank">https://john-llamos-portfolio.vercel.app/#projects</Link>
+                        </div>
                     </div>
                 </div>
             </section>
