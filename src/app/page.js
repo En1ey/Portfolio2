@@ -259,7 +259,7 @@ export default function Home() {
                         <div className={styles.contactCard}>
                             <div className={styles.contactIcon}>💼</div>
                             <h3>My Website</h3>
-                            <Link href="https://john-llamos-portfolio.vercel.app/#projects" target="_blank">https://john-llamos-portfolio.vercel.app/#projects</Link>
+                            <Link href="https://john-llamos-portfolio.vercel.app" target="_blank">https://john-llamos-portfolio.vercel.app</Link>
                         </div>
                     </div>
                 </div>
