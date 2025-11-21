@@ -57,8 +57,8 @@ const BackToTopButton = () => {
 // Main Page Component
 export default function Home() {
     const projectData = [
-        { type: "Web Application", title: "EcotechRecycle", description: "A project I developed during my academic year, aimed at providing easy access to information, locating recycling centers, and using technology to foster connections within the recycling community.", imgSrc: "/img/project3.png" },
         { type: "Product Mock-up", title: "Ideas to Products", description: "I can turn your ideas into products or anything else you envision. Here are some samples that demonstrate what I can create in a short amount of time. These mock-ups highlight my capabilities and the quality of work I deliver.", imgSrc: "/img/mockups.png" },
+        { type: "Web Application", title: "EcotechRecycle", description: "A project I developed during my academic year, aimed at providing easy access to information, locating recycling centers, and using technology to foster connections within the recycling community.", imgSrc: "/img/project3.png" },
         { type: "Logo & Poster", title: "Wedding and Web Application", description: "KiosCorp: An inventory management system. CookingIna: A food recipe application. John&Jade: A wedding logo. Each design is carefully crafted to reflect its core purpose. The idea behind these logos is that, with just a glance, you can easily identify what each represents, showcasing a strong connection to its intended function.", imgSrc: "/img/poster.png" },
         { type: "Brochure Design", title: "Brochure of Chile", description: "<p>This brochure highlights the country of Chile, covering its climate, traditions, culture, and cuisine. It presents key information in a way that&apos;s both informative and engaging.</p>", imgSrc: "/img/chile.png" },
         { type: "Desktop/Web Application", title: "KiosCorp", description: "KiosCorp is an in-house system used by Universal Auto Supply and Bolt Center to improve customer service and inventory work. It tracks stock in real time, reduces errors in recording parts and prices, and speeds up customer transactions. It helps staff locate items faster and supports a smoother checkout process. It gives the business faster service, fewer mistakes, and stronger control over inventory.", imgSrc: "/img/kioskcorp.png" },
@@ -220,7 +220,7 @@ export default function Home() {
                                 USTP's Cagayan de Oro campus is recognized as a Center of Excellence in Information Technology by the Commission on Higher Education(CHED).
                             </p>
                         </div>
-                        
+
                         <div className={styles.credentialCard}>
                             <h3>Certificate for SinaTech: Technical Architecture & UI/UX Design</h3>
                             <h3>Certificate for SinaTech: Design Thinking & Introduction to SDGs</h3>
