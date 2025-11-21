@@ -5,13 +5,13 @@ import { useState, useEffect, useRef } from 'react';
 import styles from './page.module.css';
 import Link from 'next/link';
 
+
 // Helper component for the Navigation Bar
 const Navbar = () => {
     // Note: Link component from 'next/link' is used for client-side routing
     return (
         <nav className="nav">
             <ul>
-                <link rel="icon" href="/img/LLAMOS 2X2.png" />
                 <li><Link href="#profile">Profile</Link></li>
                 <li><Link href="#projects">Projects</Link></li>
                 <li><Link href="#credentials">Credentials</Link></li>
@@ -262,7 +262,7 @@ export default function Home() {
             <BackToTopButton />
 
             <footer className="footer">
-                <p>&copy; 2025 John Henley Llamos. All rights reserved.</p>
+                <p>2025 John Henley Llamos. All rights reserved.</p>
             </footer>
         </>
     );
