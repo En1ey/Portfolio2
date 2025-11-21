@@ -214,9 +214,13 @@ export default function Home() {
                         <div className={styles.credentialCard}>
                             <h3>Bachelor of Science in Information Technology</h3>
                             <p className={styles.year}>2021 - 2025</p>
-                            <p>University pf Science and Technology of Southern Philippines</p>
-                            <p>Focused on web development, UI/UX design, and digital media production.</p>
+                            <p>University of Science and Technology of Southern Philippines</p>
+                            <p>Bachelor of Science in Information Technology (BSIT) program that focuses on the utilization of hardware and software technologies for planning, installing, customizing, operating, innovating, managing, and maintaining IT infrastructure to provide computing solutions for organizations.
+                                The program emphasizes three specializations: Network Design and Administration, Database and Information Systems, and Computer Vision and Image Processing.
+                                USTP's Cagayan de Oro campus is recognized as a Center of Excellence in Information Technology by the Commission on Higher Education(CHED).
+                            </p>
                         </div>
+                        
                         <div className={styles.credentialCard}>
                             <h3>Certificate for SinaTech: Technical Architecture & UI/UX Design</h3>
                             <h3>Certificate for SinaTech: Design Thinking & Introduction to SDGs</h3>
