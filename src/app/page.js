@@ -122,7 +122,7 @@ export default function Home() {
                         </div>
                         <div className={styles.profileText}>
                             <h1>John Henley Llamos</h1>
-                            <p>I&apos;m creative professional specializing in web design, product mockups, and video editing.</p>
+                            <p>I&apos;m creative professional specializing in web design, product mockups, and video editing. With a passion for creating visually stunning and functional digital experiences, I bring ideas to life through innovative design solutions. My work combines technical expertise with artistic vision to deliver exceptional results for every project.</p>
                         </div>
                     </div>
                 </div>
